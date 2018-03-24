@@ -1,0 +1,463 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+
+}
+.bootstrap{
+	color: #fed136;
+    font-family:'Kaushan Script';
+	font-size:26px;
+	width:300px;
+	padding-right:300px;
+	padding-left:100px;
+	font-weight:bold;
+}
+.bootstrap:hover{
+	color:#fec503;
+}
+
+.desk{
+	display: block;
+}
+.introtext{
+	text-align:center;
+	padding-top: 300px;
+    padding-bottom: 200px;
+	
+}
+.introtext h1{
+	color:#fff;
+	padding-left:30px;
+	text-align:center;
+	font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.introtext h3{
+	color:#fff;
+	font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+	text-align:center;
+
+}
+
+header{
+	width:100%;
+	background: url(../img/Man-stuff.jpg);
+	height:800px;
+	background-size:cover;
+
+}
+.introtext button{
+	background-color:#fed136;
+	color:white;
+	width:240px;
+	height:75px;
+	border-radius:10px;
+	font-weight:bold;
+	vertical-align:middle;
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	text-align: center
+    
+}
+.introtext button:hover{
+	background-color:#fec503;
+}
+
+.mobile{
+	display: none;
+}
+
+.hide{
+	display: none;
+}
+
+
+
+header nav{
+	padding: 15px 0;
+	position:fixed;
+	transition:background(black, 2s), padding-bottom(30px, 2s);
+}
+header nav:hover{
+	padding-bottom:30px;
+
+}
+
+header nav a{
+	vertical-align: middle;
+	display: inline-block;	
+	text-decoration: none;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 100;
+	width: 110px;
+	height: 110px;
+	line-height: 110px;
+	margin: 0 10px;
+	text-align: center;
+	text-transform:uppercase;
+
+}
+
+header nav a:first-child{
+	margin-right: 30px;
+	
+	border: none;
+}
+
+header nav a:hover{
+	color: #fed136;
+	
+}
+
+.navbar-collapse{
+	display: none;
+}
+
+#hamburger{
+	width: auto;
+	float: right;
+	margin-right: 10%;
+}
+
+.aboutsite{
+	padding-top:200px;
+}
+
+.aboutsite h1{
+	font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align:center;
+    font-weight: 700;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+}
+.aboutsite p{
+	font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:#6c757d;
+    font-weight:bold;
+    text-align:center;
+}
+.cart{
+	position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+.left1 h4{
+	font-weight: 700;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 15px 0;
+    text-transform: none;
+    font-size:30px;
+    padding-left:20px;
+   text-align:center;
+}
+.left1 p{
+	color:#6c757d;
+	line-height: 1.75;
+	
+}
+.left1{
+	width:300px;
+	height:400px;
+	position: relative;
+	display:inline-block;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.middle1{
+	width:300px;
+	height:400px;
+	position:relative;
+	display:inline-block;
+	padding-left:20px;
+	padding-right:20px;
+
+}
+.middle1 p{
+	color:#6c757d;
+	line-height: 1.75;
+}
+.middle1 h4{
+	font-weight: 700;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 15px 0;
+    text-transform: none;
+    font-size:30px;
+    padding-left:20px;
+    text-align:center;
+}
+
+.row-text-center{
+	text-align:center;
+	margin-right: -15px;
+    margin-left: -15px;
+    width:100%;
+    height:400px;
+}
+
+.right1{
+	width:300px;
+	height:400px;
+	position:relative;
+	display:inline-block;
+	padding-left:20px;
+	padding-right:50px;
+	display:inline-block;
+}
+.right1 p{
+	color:#6c757d;
+	line-height: 1.75;
+}
+.right1 h4{
+	font-weight: 700;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 15px 0;
+    text-transform: none;
+    font-size:30px;
+    padding-left:20px;
+   	text-align:center;
+}
+.iconwrapp{
+	background-color:#feca30;
+	border-radius:50%;
+	
+	width:124px;
+	height:124px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.iconwrapp i{
+	font-size:90px;
+	color:white;
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.porthead h1{
+	font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align:center;
+    font-weight: 700;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+}
+.porthead p{
+	font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:#6c757d;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom: 75px;
+}
+.portfolio{
+	background-color:#f8f9fa;
+	padding:150px 0;
+}
+.row{
+	width:100%;
+	margin-right: -15px;
+    margin-left: -15px;
+}
+.col-sm-6{
+	margin: 0 0 30px;
+	max-width: 400px;
+   	display:inline-block;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+}
+.portfolio-hover{
+	position:absolute;
+	max-width: 100%;
+    height: auto;
+    height:300px;
+}
+.portfolio-caption{
+	 margin: 0 auto;
+}
+.portfolio-caption h4{
+	margin: 0;
+    text-transform: none;
+    font-size:30px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight:bold;
+}
+.portfolio-caption p{
+	font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:#6c757d;
+    font-weight:bold;
+}
+.portfolio-hover{
+	position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity:1;
+	cursor:pointer;
+	
+}
+.portfolio-hover:hover i{
+	transition:background 5s;
+}
+.portfolio-hover:hover{
+	background-color:#fed136;
+}
+.portfolio-hover i{
+	font-size:80px;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    opacity:0;
+   
+	
+}
+.portfolio-hover img:hover {
+	background-color:#fed136;
+	opacity:0.2;
+
+}
+.portfolio-hover img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition:opacity 0.5s
+}
+.portfolio-hover:hover i{
+	opacity:1;
+	
+}
+.headtext{
+	padding-top:250px;
+	padding-right:100px;
+}
+
+.headtext h1{
+	font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align:center;
+    font-weight: 700;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+}
+.headtext p{
+	font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:#6c757d;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom: 75px;
+}
+.history h4{
+	font-size: 30px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-top: 0;
+	
+}
+.circle-head1{
+	text-align:right;
+	width:400px;
+	padding-top:200px;
+}
+.col-lg-12{
+	margin-left:100px;
+	
+    display:block;
+    padding-bottom:400px;
+    margin-top:0;
+}
+.history p{
+	color:#6c757d;
+	margin-bottom: 0;
+}
+.circle-text1{
+	width:400px;
+	text-align:right;
+	
+	
+}
+.circle-text1 p{
+	font-size:18px;
+	
+}
+.col-lg-12 img {
+	border:7px solid #e9ecef;
+	border-radius:120px;
+	width:140px;
+	height:140px;
+	
+}
+.circle-image1{
+	text-align:right;
+	padding-bottom:100px;
+}
+
+.line: {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: '';
+    background-color: #e9ecef;
+}
+}
+@media only screen and (max-width: 500px) {
+	.desk{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+	}
+
+	header nav a{
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+		background-color: transparent;
+	}
+	header nav a:hover{
+		background-color: transparent;
+	}
+	header .logo{
+		max-width: 80px;
+	}
+}
